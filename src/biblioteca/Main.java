@@ -11,9 +11,11 @@ package biblioteca;
  */
 
 public class Main {
-    /** * Constructor per defecte de la classe Main */
+    /**
+     * Constructor per defecte de la classe Main
+     */
     //costructor por defecto
-    public Main() {}
+   // public Main() {}
 
     /**
      * Método principal del programa.
