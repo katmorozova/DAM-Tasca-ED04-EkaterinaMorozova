@@ -8,9 +8,13 @@ package biblioteca;
  * @author Ekaterina Morozova
  */
 public class Llibre {
+    /** Título del libro */
     private String titol;
+    /** Autor del libro */
     private String autor;
+    /** Número de ejemplares disponibles del libro */
     private int exemplars;
+    /** Precio del libro */
     private float preu;
 
     /**
@@ -102,7 +106,7 @@ public class Llibre {
     /**
      * Presta una cantidad determinada de ejemplares del libro.
      * Si no hay suficientes ejemplares disponibles, lanza una excepción.
-     * @param quantitat número de ejemplares a prestar
+     * @param quantitat -> número de ejemplares a prestar
      * @throws Exception si no hay suficientes ejemplares disponibles
      */
     public void prestarLlibre(int quantitat) throws Exception {

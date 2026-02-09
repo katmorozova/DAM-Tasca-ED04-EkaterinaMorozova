@@ -11,14 +11,14 @@ package biblioteca;
  */
 
 public class Main {
+    /**
+     * Método principal del programa.
+     * Inicia la gestión del libro llamando al método gestionarLlibre.
+     *
+     * @param args argumentos de línea de comandos (no utilizados)
+     */
     public static void main(String[] args) {
 
-        /**
-         * Método principal del programa
-         * Inicia la gestión del libro llamando al método gestionarLlibre
-         *
-         * @param args -> argumentos de línea de comandos (no utilizados)
-         */
         gestionarLlibre(4, 2);
     }
 
