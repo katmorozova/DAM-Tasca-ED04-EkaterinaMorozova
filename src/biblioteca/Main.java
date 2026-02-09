@@ -11,6 +11,10 @@ package biblioteca;
  */
 
 public class Main {
+    /** * Constructor per defecte de la classe Main */
+    //costructor por defecto
+    public Main() {}
+
     /**
      * Método principal del programa.
      * Inicia la gestión del libro llamando al método gestionarLlibre.
